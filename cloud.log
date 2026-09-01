@@ -1,0 +1,202 @@
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Connecting to ResembleAI/chatterbox-turbo-demo...
+Loaded as API: https://resembleai-chatterbox-turbo-demo.hf.space ✔
+Connected (authenticated with your Hugging Face account).
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 98, in <module>
+    demo.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2720, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
