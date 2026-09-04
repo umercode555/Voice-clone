@@ -200,3 +200,75 @@ OSError: Cannot find empty port in range: 7861-7861. You can specify a different
   client = Client(SPACE_ID, hf_token=HF_TOKEN)
 /Users/mac/Downloads/voicebox-lite/app_cloud.py:23: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
   client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:59: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:65: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:93: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:100: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:100: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
+Traceback (most recent call last):
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/queueing.py", line 849, in process_events
+    response = await route_utils.call_process_api(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 354, in call_process_api
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2191, in process_api
+    result = await self.call_function(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1710, in call_function
+    prediction = await utils.async_iteration(iterator)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/utils.py", line 760, in async_iteration
+    return await anext(iterator)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/utils.py", line 751, in __anext__
+    return await anyio.to_thread.run_sync(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2641, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1033, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/utils.py", line 734, in run_sync_iterator_async
+    return next(iterator)
+           ^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio/utils.py", line 898, in gen_wrapper
+    response = next(iterator)
+               ^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 197, in generate
+    result_path = _call_model(text, ref_audio, temperature, seed, min_p, top_p, top_k, repetition_penalty, norm_loudness)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/app_cloud.py", line 108, in _call_model
+    return client.predict(
+           ^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio_client/client.py", line 513, in predict
+    ).result()
+      ^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio_client/client.py", line 1622, in result
+    return super().result(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/envs/rag/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/envs/rag/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/mac/miniconda3/envs/rag/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio_client/client.py", line 1226, in _inner
+    predictions = _predict(*data, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Downloads/voicebox-lite/venv/lib/python3.11/site-packages/gradio_client/client.py", line 1346, in _predict
+    raise AppError(message=message, **result)
+gradio_client.exceptions.AppError: You have exceeded your free ZeroGPU quota (60s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face PRO to get 25 min of ZeroGPU quota a day - https://huggingface.co/subscribe/pro?from=ZeroGPU
+/Users/mac/Downloads/voicebox-lite/app_cloud.py:100: DeprecationWarning: The 'hf_token' parameter will be removed in Gradio 6.0. You will need to use 'token' instead.
+  client = Client(SPACE_ID, hf_token=HF_TOKEN)
